@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,8 @@
 		84B714DD23EA0C8D00EED83A /* flixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B714DC23EA0C8D00EED83A /* flixUITests.swift */; };
 		84B9F31B23EA6C3500F8741A /* MoviesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F31A23EA6C3500F8741A /* MoviesViewController.swift */; };
 		84B9F31D23EA98B900F8741A /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B9F31C23EA98B900F8741A /* MovieCell.swift */; };
+		84C8C88D23F13B1200657967 /* MovieGridViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C8C88C23F13B1200657967 /* MovieGridViewController.swift */; };
+		84F2361D23F125A300F18638 /* MovieDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F2361C23F125A300F18638 /* MovieDetailsViewController.swift */; };
 		8780249968F5287518927336 /* Pods_flix.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FA89F74135F62416D2D480D /* Pods_flix.framework */; };
 		EC0D62A3CF05F4AC7118DAE7 /* Pods_flix_flixUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26B57B4EA223B1F883AC92A /* Pods_flix_flixUITests.framework */; };
 /* End PBXBuildFile section */
@@ -60,6 +62,8 @@
 		84B714DE23EA0C8D00EED83A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B9F31A23EA6C3500F8741A /* MoviesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesViewController.swift; sourceTree = "<group>"; };
 		84B9F31C23EA98B900F8741A /* MovieCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
+		84C8C88C23F13B1200657967 /* MovieGridViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieGridViewController.swift; sourceTree = "<group>"; };
+		84F2361C23F125A300F18638 /* MovieDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailsViewController.swift; sourceTree = "<group>"; };
 		9CD864C6F6C60FF1183F6F20 /* Pods-flixTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flixTests.debug.xcconfig"; path = "Target Support Files/Pods-flixTests/Pods-flixTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D336A4F6AAD42F1313808CF9 /* Pods_flixTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_flixTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3DC6A63146640A8FFCA13F7 /* Pods-flix.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-flix.debug.xcconfig"; path = "Target Support Files/Pods-flix/Pods-flix.debug.xcconfig"; sourceTree = "<group>"; };
@@ -139,6 +143,8 @@
 				84B714C823EA0C8D00EED83A /* Info.plist */,
 				84B9F31A23EA6C3500F8741A /* MoviesViewController.swift */,
 				84B9F31C23EA98B900F8741A /* MovieCell.swift */,
+				84F2361C23F125A300F18638 /* MovieDetailsViewController.swift */,
+				84C8C88C23F13B1200657967 /* MovieGridViewController.swift */,
 			);
 			path = flix;
 			sourceTree = "<group>";
@@ -171,7 +177,6 @@
 				9CD864C6F6C60FF1183F6F20 /* Pods-flixTests.debug.xcconfig */,
 				7AF9A1C91B132B6356BD5BA4 /* Pods-flixTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -416,6 +421,8 @@
 			files = (
 				84B714BF23EA0C8C00EED83A /* ViewController.swift in Sources */,
 				84B714BB23EA0C8C00EED83A /* AppDelegate.swift in Sources */,
+				84F2361D23F125A300F18638 /* MovieDetailsViewController.swift in Sources */,
+				84C8C88D23F13B1200657967 /* MovieGridViewController.swift in Sources */,
 				84B714BD23EA0C8C00EED83A /* SceneDelegate.swift in Sources */,
 				84B9F31D23EA98B900F8741A /* MovieCell.swift in Sources */,
 				84B9F31B23EA6C3500F8741A /* MoviesViewController.swift in Sources */,
